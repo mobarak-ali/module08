@@ -1,18 +1,18 @@
 .container{
     display: flex;
     background-color: honeydew;
+    position: relative;
 } 
 .box{
     width: 200px;
     height: 200px;
-    background-color:gainsboro;
+    background-color:rgba(10,10,10,.5);
     margin: 5px;
 }
 .box-2{
-    position:relative;
-    left:50px;
-    left:150px;
-    z-index: 2;
+    position: absolute;
+    top:50px;
+    left: 50px;
 }
 .box-3{
     z-index: 1;
