@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    background-color: honeydew;
+} 
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:gainsboro;
+    margin: 5px;
+}
+.box-2{
+    position:relative;
+    left:50px;
+    left:150px;
+    z-index: 2;
+}
+.box-3{
+    z-index: 1;
+}
