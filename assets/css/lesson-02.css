@@ -1,0 +1,46 @@
+
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap ;
+}
+.photo-frame {
+    width: 300px;
+    height: 165px;
+    border: 1px solid tomato;
+    border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.photo-frame:hover .photo-detail {
+    display: block;
+}
+
+.photo-frame .photo img {
+    width: 100%;
+}
+
+.photo-detail {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 0;
+    display: none;
+    background-color: rgba(255, 99, 71, .25);
+}
+
+.photo-detail h3 {
+    background: rgba(255, 99, 71, .75);
+    color: #fff;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+.photo-detail p {
+    color: #fff;
+    padding: 5px 10px;
+    margin: 2px;
+    background: rgba(255, 99, 71, .75);
+}
